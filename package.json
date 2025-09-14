@@ -6,10 +6,15 @@
     "dev": "bun run --watch src/index.ts"
   },
   "dependencies": {
+    "@elysiajs/openapi": "^1.4.2",
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.2",
+    "drizzle-orm": "^0.44.5",
     "elysia": "latest"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "drizzle-kit": "^0.31.4"
   },
   "module": "src/index.js"
 }
