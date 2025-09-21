@@ -8,6 +8,7 @@
     "start": "bun run build/index.js"
   },
   "dependencies": {
+    "@elysiajs/jwt": "^1.4.0",
     "@elysiajs/openapi": "^1.4.2",
     "@libsql/client": "^0.15.15",
     "dotenv": "^17.2.2",
@@ -15,6 +16,7 @@
     "elysia": "latest"
   },
   "devDependencies": {
+    "@biomejs/biome": "2.2.4",
     "bun-types": "latest",
     "drizzle-kit": "^0.31.4"
   },
